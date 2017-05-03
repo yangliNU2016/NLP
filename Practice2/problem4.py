@@ -14,13 +14,13 @@ counts = np.zeros((len(words), len(words)))
 
 file2 = nltk.data.path[0] + '/corpora/brown/brown_100.txt'
 with open(file2) as g:
-	starting_word = '<s>'
+#	starting_word = '<s>'
 	for line in g:
 		wdsEachLine = line[:-1].lower().split()
-		wdsEachLine = [starting_word] + wdsEachLine
+#		wdsEachLine = [starting_word] + wdsEachLine
 		wdsEachLine.append('</s>')
 		for idx, wd in enumerate(wdsEachLine):
-			if wd != '<s>':
+			if idx != 0:
 				counts[words[wdsEachLine[idx]]][words[wdsEachLine[idx - 1]]] += 1
 
 counts += 0.1
