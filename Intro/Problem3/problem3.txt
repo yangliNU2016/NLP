@@ -1,0 +1,30 @@
+3.1 How many times does the past tense verb said occur in the Brown corpus?
+\b[Ss]aid\b 1961
+
+3.2 When said occurs with a full sentence, it often uses the complementizer that. How often does said occur with 
+that immediately following? If we assume that all of these cases are actually the complementizer that 
+(and not, e.g., the pronoun that as in ¡®I never said that.¡¯), what proportion of the time is said used with the 
+complementizer that?
+\bsaid that\b 106
+\bsaid that \b 100
+If used as a complementizer not pronoun, "that" should be followed by a space.
+we may suggest only 6 cases out 106 cases where "that" is used as a pronoun where there is a either '.' or ',' or
+something else followed, and 100 cases out 106 cases where "that" is used as a complementizer.
+
+3.3 Another common usage of said is with an embedded-question. We can get a rough estimate of the number of times 
+said is used with embedded questions by explicitly searching for said occurring immediately prior to a question 
+word (what, who, when, where, how, why, which). How many times is said used with each type of embedded question? 
+What proportion of the time is it used with any of these types of embedded question?
+\b[Ww]hat said|[Ww]hat [a-z]+ said|[Ww]hat [a-z]+ [a-z]+ said\b 26 cases out of 70 cases
+\b[Ww]ho said|[Ww]ho [a-z]+ said|[Ww]ho [a-z]+ [a-z]+ said\b 14 cases out of 70 cases
+\b[Ww]hen said|[Ww]hen [a-z]+ said|[Ww]hen [a-z]+ [a-z]+ said\b 16 cases out of 70 cases
+\b[Ww]here said|[Ww]here [a-z]+ said|[Ww]here [a-z]+ [a-z]+ said\b 3 cases out of 70 cases
+\b[Hh]ow said|[Hh]ow [a-z]+ said|[Hh]ow [a-z]+ [a-z]+ said\b 1 case out of 70 cases
+\b[Ww]hy said|[Ww]hy [a-z]+ said|[Ww]hy [a-z]+ [a-z]+ said\b 0 out of 70 cases
+\b[Ww]hich said|[Ww]hich [a-z]+ said|[Ww]hich [a-z]+ [a-z]+ said\b 10 cases out of 70 cases
+26 + 14 + 16 + 3 + 1 + 0 + 10 = 70
+
+
+ 
+
+
